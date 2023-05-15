@@ -1,1 +1,112 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #e3e4e7;
+}
 
+.header {
+  width: 100%;
+  padding: 20px 0;
+  margin-left: 0px;
+  background-color: rgba(0, 0, 0, 0.05);
+  position: fixed;
+  top: 0;
+  right: 0;
+}
+
+.header h1,
+.subtitle {
+  display: inline;
+  margin-left: 40px;
+}
+
+.subtitle {
+  font-family: 'Roboto Mono', monospace;
+  margin-left: 20px;
+}
+
+.welcome {
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+}
+
+img {
+  box-shadow: 10px 10px 0 rgba(0, 0, 0, 0.15);
+}
+
+.date {
+  color: #333341;
+  opacity: 0.5;
+}
+
+.tech,
+.core {
+  margin-top: 80px;
+}
+
+.tech,
+.core,
+.footer {
+  margin-left: 160px;
+}
+.tech,
+h2 {
+  margin-top: 90px;
+}
+
+.tech h4 {
+  margin-bottom: 16px;
+  font-family: 'Roboto Mono', monospace;
+}
+
+.tech h2,
+.tech h4 {
+  display: inline;
+  padding-right: 10px;
+}
+.tech p,
+.core p {
+  margin-top: 16px;
+  margin-bottom: 4px;
+}
+
+.core h4 {
+  font-family: 'Roboto Mono', monospace;
+}
+.core h2,
+.core h4 {
+  display: inline;
+  padding-right: 10px;
+}
+
+.footer {
+  margin-top: 100px;
+  margin-bottom: 60px;
+}
+a {
+  color: #333341;
+  font-weight: bolder;
+}
+
+li {
+  list-style: none;
+  margin-left: -40px;
+}
+
+/* for tablet and phone */
+@media (max-width: 768px) {
+  .subtitle {
+    display: none;
+  }
+
+  .tech,
+  .core,
+  .footer {
+    margin-left: 60px;
+    padding-right: 60px;
+  }
+
+  /* .footer a {
+    margin-left: 60px;
+  } */
+}
