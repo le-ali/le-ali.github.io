@@ -37,7 +37,7 @@ h2 {
   margin-bottom: 20px;
   margin-top: 40px;
 }
-.border h2 {
+.border h2 .margin h2 .padding h2 .conclusion h2 {
   margin-top: 60px;
 }
 
@@ -111,8 +111,4 @@ img {
     display: flex;
     align-self: start;
   }
-}
-.container {
-  position: relative;
-  top: 230px;
 }
