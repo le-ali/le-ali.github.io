@@ -1,0 +1,66 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #e3e4e7;
+}
+nav {
+  height: 40px;
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.15);
+  /*border-bottom: 1px solid rgb(52, 49, 46);*/
+}
+
+nav a {
+  text-decoration: none;
+  position: relative;
+  top: 10px;
+  left: 30px;
+  color: rgb(24, 66, 231);
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+p {
+  line-height: 20px;
+}
+
+.signature-strengths {
+  width: 80%;
+  margin: 60px auto;
+}
+
+.signature-strengths h1,
+.signature-strengths ul {
+  text-align: center;
+  list-style-type: none;
+}
+ul {
+  padding-left: 0;
+}
+
+div {
+  max-width: 70%;
+  text-align: left;
+  margin: 0 auto;
+}
+
+h2 {
+  color: black;
+  padding-top: 20px;
+}
+
+h3 {
+  color: rgb(130, 130, 146);
+}
+
+.last {
+  margin-bottom: 100px;
+}
+.learning-plan {
+  margin-top: 60px;
+  text-align: center;
+}
