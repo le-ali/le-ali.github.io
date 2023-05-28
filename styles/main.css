@@ -1,27 +1,73 @@
+/* --- Common components --- */
+
 body {
   font-family: 'Roboto', sans-serif;
   background-color: #e3e4e7;
+  padding: 50px 100px;
 }
 
 .header {
   width: 100%;
   padding: 20px 0;
-  margin-left: 0px;
+  margin-left: 40px;
   background-color: rgba(0, 0, 0, 0.05);
   position: fixed;
   top: 0;
   right: 0;
 }
 
-.header h1,
-.subtitle {
-  display: inline;
-  margin-left: 40px;
+.header a {
+  text-decoration: none;
+  position: relative;
+  left: 30px;
+  color: rgb(24, 66, 231);
+}
+
+.header a:hover {
+  text-decoration: underline;
+}
+
+h1 {
+  text-align: center;
+}
+
+p {
+  line-height: 26px;
+}
+
+.centre {
+  text-align: center;
+}
+
+.footer {
+  margin-top: 100px;
+  margin-bottom: 60px;
+}
+
+a {
+  color: #333341;
+  font-weight: bolder;
+}
+
+li {
+  list-style: none;
+  margin-left: -40px;
+}
+
+/* --- Homepage --- */
+
+.intro {
+  text-align: left;
 }
 
 .subtitle {
   font-family: 'Roboto Mono', monospace;
   margin-left: 20px;
+}
+.header h1,
+.subtitle {
+  display: inline;
+  margin-left: 40px;
 }
 
 .welcome {
@@ -34,10 +80,21 @@ img {
   box-shadow: 10px 10px 0 rgba(0, 0, 0, 0.15);
 }
 
+div img {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 80%;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
 .date {
   color: #333341;
   opacity: 0.5;
 }
+
+/* --- Tech --- */
 
 .tech,
 .core {
@@ -79,19 +136,20 @@ h2 {
   padding-right: 10px;
 }
 
-.footer {
-  margin-top: 100px;
-  margin-bottom: 60px;
-}
-a {
-  color: #333341;
-  font-weight: bolder;
+/* --- Core --- */
+
+.signature-strengths {
+  width: 80%;
+  margin: 60px auto;
 }
 
-li {
-  list-style: none;
-  margin-left: -40px;
+.signature-strengths h1,
+.signature-strengths ul {
+  text-align: center;
+  list-style-type: none;
 }
+
+/* --- Responsiveness --- */
 
 /* for tablet and phone */
 @media (max-width: 768px) {
@@ -104,6 +162,27 @@ li {
   .footer {
     margin-left: 60px;
     padding-right: 60px;
+  }
+
+  body {
+    padding: 20px;
+  }
+
+  div {
+    width: 100%;
+  }
+
+  img {
+    width: 100%;
+  }
+
+  p.centre {
+    text-align: left;
+  }
+
+  .header a {
+    display: flex;
+    align-self: start;
   }
 
   /* .footer a {
