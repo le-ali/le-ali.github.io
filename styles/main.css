@@ -28,6 +28,7 @@ body {
 }
 
 h1 {
+  padding-top: 30px;
   text-align: center;
 }
 
@@ -108,7 +109,7 @@ div img {
 }
 .tech,
 h2 {
-  margin-top: 90px;
+  margin-top: 70px;
 }
 
 .tech h4 {
@@ -147,6 +148,9 @@ h2 {
 .signature-strengths ul {
   text-align: center;
   list-style-type: none;
+}
+div img {
+  margin-top: 40px;
 }
 
 /* --- Responsiveness --- */
