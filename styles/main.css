@@ -86,7 +86,7 @@ div img {
   flex-direction: column;
   align-items: center;
   width: 80%;
-  margin: 0 auto;
+  margin: 25px auto 0 auto;
   box-sizing: border-box;
 }
 
@@ -148,9 +148,6 @@ h2 {
 .signature-strengths ul {
   text-align: center;
   list-style-type: none;
-}
-div img {
-  margin-top: 40px;
 }
 
 /* --- Responsiveness --- */
