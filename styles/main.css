@@ -149,6 +149,9 @@ h2 {
   text-align: center;
   list-style-type: none;
 }
+ul > li {
+  list-style-type: disc;
+}
 
 /* --- Responsiveness --- */
 
